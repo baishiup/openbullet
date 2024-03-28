@@ -30,6 +30,6 @@ deploy:
     tag: 1.2.2#$(REV)
     force_update: true
     auth_token:
-        secure: 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
+        secure: $(GITHUB_TOKEN)
     on:
       branch: master
